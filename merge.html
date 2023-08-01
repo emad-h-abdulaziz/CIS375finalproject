@@ -4,6 +4,7 @@
         <link rel = "icon" type = "image/png" href = "sorting arrows.png">
         <title>Sorting Array Visualizer</title>
         <link rel = "stylesheet" href = "design.css">
+        <script src="index.js" defer></script>
         <script src="script.js" defer></script>
     </head>
     <body>
@@ -18,13 +19,12 @@
             </ul>
         </nav>
         <main>
-            <h3> Bubble Sort</h3>
+            <h3> Merge Sort</h3>
             <pre>
-                Bubble Sort works by repeatedly comparing adjacent elements in a list from left to right, 
-                swapping them if one is larger or smaller than the other until there are no more elements to swap 
-                and the array is sorted.
+                Merge Sort works by recursively dividing the array into smaller subarrays, sorting each subarray 
+                and then merging the sorted subarrays into a complete sorted array.
 
-                Worst-case time complexity: O(n^2)
+                Worst-case time complexity: O(nlogn)
             </pre>
         </main>
     </body>

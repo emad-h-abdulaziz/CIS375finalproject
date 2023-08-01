@@ -1,0 +1,35 @@
+.navBar ul {
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgb(54, 85, 91);
+    overflow: hidden; 
+    margin: 15px;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: rgb(227, 224, 224);
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.navBar li {
+    float: left;
+}
+
+.navBar a:hover{
+    background-color: rgb(44, 69, 74);
+}
+
+li a:focus {
+    background-color: rgb(44, 69, 74);
+  }
+
+h2 {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+body {
+    font-family: Georgia, serif;
+}
+
