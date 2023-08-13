@@ -1,3 +1,4 @@
+/*navigation bar design */
 .navBar ul {
     list-style-type: none;
     padding: 0px;
@@ -26,8 +27,11 @@ li a:focus {
     background-color: rgb(44, 69, 74);
   }
 
-h2 {
+   /*general design */
+
+h1 {
     font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: center;
 }
 body {
     font-family: Georgia, serif;
@@ -35,3 +39,73 @@ body {
     margin-right: 25px;
 }
 
+pre {
+    font-size: 15px;
+  }
+
+button {
+    margin: 10px
+}
+
+  /*directions design */
+  .directions {
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  #directionsText {
+    font-size: 12px; 
+    margin-left: 5px; 
+  }
+  
+  #directionsImage {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+   /*slider design */
+.slidecontainer {
+    width: 100%; 
+    text-align: center;  
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 75%;
+    height: 30px;
+    background: #a8b1bb;
+    outline: none;
+    margin: 0 auto;
+  }
+  .slider-description {
+    text-align: center;
+    margin-top: 10px; 
+  }
+  
+  .slider:hover {
+    background: rgb(154, 160, 170);
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #eba0a5;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    background: #eba0a5;
+    cursor: pointer;
+  }
+
+  #sliderRange {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
